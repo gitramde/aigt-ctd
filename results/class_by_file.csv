@@ -1,0 +1,32 @@
+filename,label,count,class_group
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Benign,762384,benign
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bot,286191,malicious
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Benign,446772,benign
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,DoS attacks-Hulk,461912,malicious
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,DoS attacks-SlowHTTPTest,139890,malicious
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Label,1,malicious
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Benign,1048009,benign
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Brute Force -Web,362,malicious
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Brute Force -XSS,151,malicious
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,SQL Injection,53,malicious
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Benign,7372557,benign
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,DDoS attacks-LOIC-HTTP,576191,malicious
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Benign,238037,benign
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Infilteration,93063,malicious
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Label,25,malicious
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Benign,996077,benign
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,DoS attacks-GoldenEye,41508,malicious
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,DoS attacks-Slowloris,10990,malicious
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Benign,1048213,benign
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Brute Force -Web,249,malicious
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Brute Force -XSS,79,malicious
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,SQL Injection,34,malicious
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Benign,667626,benign
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,FTP-BruteForce,193360,malicious
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,SSH-Bruteforce,187589,malicious
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Benign,360833,benign
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,DDOS attack-HOIC,686012,malicious
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,DDOS attack-LOIC-UDP,1730,malicious
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Benign,544200,benign
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Infilteration,68871,malicious
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Label,33,malicious

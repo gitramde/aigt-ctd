@@ -1,0 +1,4 @@
+# Full audit and synthetic correctness checks.
+numpy
+# Retained legacy audit script.
+pandas

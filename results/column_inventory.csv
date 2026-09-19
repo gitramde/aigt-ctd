@@ -1,0 +1,805 @@
+filename,column_name,data_type,non_missing_values,unique_values,is_constant,is_source_identifier,is_destination_identifier,is_source_port,is_destination_port,is_timestamp,is_protocol,is_flow_duration,is_packet_count,is_byte_count,is_attack_label
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Dst Port,int64,1048575,2,False,False,False,False,True,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Protocol,int64,1048575,2,False,False,False,False,False,False,True,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Timestamp,datetime64[ns],1048575,2,False,False,False,False,False,True,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,int64,1048575,2,False,False,False,False,False,False,False,True,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,float64,1046017,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,True,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,True,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Active Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Active Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Active Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Active Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Idle Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Idle Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Idle Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-02-03-2018_TrafficForML_CICFlowMeter.csv,Label,string,1048575,2,False,False,False,False,False,False,False,False,False,False,True
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,int64,1048575,2,False,False,False,False,True,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,int64,1048575,2,False,False,False,False,False,False,True,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Timestamp,datetime64[ns],1048575,2,False,False,False,False,False,True,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,int64,1048575,2,False,False,False,False,False,False,False,True,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,string,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,string,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,string,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,string,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,string,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,string,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,string,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,string,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,string,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,string,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,True,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,True,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-16-02-2018_TrafficForML_CICFlowMeter.csv,Label,string,1048575,2,False,False,False,False,False,False,False,False,False,False,True
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,int64,1048575,2,False,False,False,False,True,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,int64,1048575,2,False,False,False,False,False,False,True,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Timestamp,datetime64[ns],1048575,2,False,False,False,False,False,True,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,int64,1048575,2,False,False,False,False,False,False,False,True,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,float64,1044821,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,True,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,True,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Friday-23-02-2018_TrafficForML_CICFlowMeter.csv,Label,string,1048575,2,False,False,False,False,False,False,False,False,False,False,True
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow ID,string,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Src IP,string,7948748,2,False,True,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Src Port,int64,7948748,2,False,False,False,True,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Dst IP,string,7948748,2,False,False,True,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,int64,7948748,2,False,False,False,False,True,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,int64,7948748,2,False,False,False,False,False,False,True,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Timestamp,datetime64[ns],7948748,2,False,False,False,False,False,True,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,int64,7948748,2,False,False,False,False,False,False,False,True,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,int64,7948748,2,False,False,False,False,False,False,False,False,True,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,int64,7948748,2,False,False,False,False,False,False,False,False,True,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,int64,7948748,2,False,False,False,False,False,False,False,False,True,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,int64,7948748,2,False,False,False,False,False,False,False,False,True,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,float64,7911981,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,int64,7948748,1,True,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,int64,7948748,1,True,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,int64,7948748,1,True,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,int64,7948748,1,True,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,int64,7948748,1,True,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,int64,7948748,1,True,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,int64,7948748,1,True,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,int64,7948748,1,True,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,int64,7948748,1,True,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,int64,7948748,1,True,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,int64,7948748,2,False,False,False,False,False,False,False,False,True,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,int64,7948748,2,False,False,False,False,False,False,False,False,False,True,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,int64,7948748,2,False,False,False,False,False,False,False,False,True,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,int64,7948748,2,False,False,False,False,False,False,False,False,False,True,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,float64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,int64,7948748,2,False,False,False,False,False,False,False,False,False,False,False
+Thuesday-20-02-2018_TrafficForML_CICFlowMeter.csv,Label,string,7948748,2,False,False,False,False,False,False,False,False,False,False,True
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Dst Port,int64,331125,2,False,False,False,False,True,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Protocol,int64,331125,2,False,False,False,False,False,False,True,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Timestamp,datetime64[ns],331125,2,False,False,False,False,False,True,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,int64,331125,2,False,False,False,False,False,False,False,True,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,int64,331125,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,string,331125,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,int64,331125,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,string,331125,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,float64,329291,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,float64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,float64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,int64,331125,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,int64,331125,2,False,False,False,False,False,False,False,False,False,True,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,string,331125,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,string,331125,2,False,False,False,False,False,False,False,False,False,True,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,string,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Active Mean,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Active Std,float64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Active Max,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Active Min,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Idle Std,float64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Idle Max,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Idle Min,int64,331125,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-01-03-2018_TrafficForML_CICFlowMeter.csv,Label,string,331125,2,False,False,False,False,False,False,False,False,False,False,True
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,int64,1048575,2,False,False,False,False,True,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,int64,1048575,2,False,False,False,False,False,False,True,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Timestamp,datetime64[ns],1048575,2,False,False,False,False,False,True,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,int64,1048575,2,False,False,False,False,False,False,False,True,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,float64,1043654,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,True,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,True,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv,Label,string,1048575,2,False,False,False,False,False,False,False,False,False,False,True
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,int64,1048575,2,False,False,False,False,True,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,int64,1048575,2,False,False,False,False,False,False,True,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Timestamp,datetime64[ns],1048575,2,False,False,False,False,False,True,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,int64,1048575,2,False,False,False,False,False,False,False,True,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,float64,1045006,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,True,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,True,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Thursday-22-02-2018_TrafficForML_CICFlowMeter.csv,Label,string,1048575,2,False,False,False,False,False,False,False,False,False,False,True
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,int64,1048575,2,False,False,False,False,True,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,int64,1048575,2,False,False,False,False,False,False,True,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Timestamp,datetime64[ns],1048575,2,False,False,False,False,False,True,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,int64,1048575,2,False,False,False,False,False,False,False,True,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,float64,1046298,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,True,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,True,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-14-02-2018_TrafficForML_CICFlowMeter.csv,Label,string,1048575,2,False,False,False,False,False,False,False,False,False,False,True
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,int64,1048575,2,False,False,False,False,True,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,int64,1048575,2,False,False,False,False,False,False,True,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Timestamp,datetime64[ns],1048575,2,False,False,False,False,False,True,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,int64,1048575,2,False,False,False,False,False,False,False,True,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,int64,1048575,1,True,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,True,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,True,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,float64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,int64,1048575,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-21-02-2018_TrafficForML_CICFlowMeter.csv,Label,string,1048575,2,False,False,False,False,False,False,False,False,False,False,True
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Dst Port,int64,613104,2,False,False,False,False,True,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Protocol,int64,613104,2,False,False,False,False,False,False,True,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Timestamp,datetime64[ns],613104,2,False,False,False,False,False,True,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow Duration,int64,613104,2,False,False,False,False,False,False,False,True,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Tot Fwd Pkts,int64,613104,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Tot Bwd Pkts,int64,613104,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Fwd Pkts,int64,613104,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,TotLen Bwd Pkts,int64,613104,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Max,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Min,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Mean,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkt Len Std,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Max,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Min,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Mean,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkt Len Std,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow Byts/s,float64,609063,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow Pkts/s,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Mean,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Std,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Max,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Flow IAT Min,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Tot,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Mean,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Std,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Max,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd IAT Min,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Tot,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Mean,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Std,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Max,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd IAT Min,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd PSH Flags,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd PSH Flags,string,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd URG Flags,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd URG Flags,string,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Header Len,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Header Len,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/s,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/s,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Min,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Max,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Mean,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Std,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Len Var,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,FIN Flag Cnt,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,SYN Flag Cnt,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,RST Flag Cnt,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,PSH Flag Cnt,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,ACK Flag Cnt,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,URG Flag Cnt,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,CWE Flag Count,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,ECE Flag Cnt,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Down/Up Ratio,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Pkt Size Avg,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Avg,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Seg Size Avg,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Byts/b Avg,string,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Pkts/b Avg,string,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Blk Rate Avg,string,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Byts/b Avg,string,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Pkts/b Avg,string,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Bwd Blk Rate Avg,string,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Pkts,int64,613104,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Fwd Byts,int64,613104,2,False,False,False,False,False,False,False,False,False,True,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Pkts,int64,613104,2,False,False,False,False,False,False,False,False,True,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Subflow Bwd Byts,int64,613104,2,False,False,False,False,False,False,False,False,False,True,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Init Fwd Win Byts,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Init Bwd Win Byts,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Act Data Pkts,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Fwd Seg Size Min,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Active Mean,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Active Std,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Active Max,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Active Min,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Idle Mean,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Idle Std,float64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Idle Max,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Idle Min,int64,613104,2,False,False,False,False,False,False,False,False,False,False,False
+Wednesday-28-02-2018_TrafficForML_CICFlowMeter.csv,Label,string,613104,2,False,False,False,False,False,False,False,False,False,False,True
