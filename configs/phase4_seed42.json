@@ -1,0 +1,43 @@
+{
+  "phase": "development",
+  "seed": 42,
+  "model_order": ["logistic_regression", "random_forest", "xgboost", "mlp"],
+  "batch_size": 50000,
+  "threads": 2,
+  "threshold": 0.5,
+  "selection_metric": "validation_macro_f1",
+  "early_stopping_patience": 2,
+  "minimum_improvement": 0.00001,
+  "logistic_regression": {
+    "implementation": "SGDClassifier logistic loss (incremental L2-regularized logistic regression)",
+    "max_epochs": 5,
+    "alpha": 0.0001,
+    "eta0": 0.001,
+    "average": true
+  },
+  "random_forest": {
+    "tree_checkpoints": [16, 32, 64],
+    "max_depth": 16,
+    "min_samples_leaf": 20,
+    "max_features": "sqrt",
+    "max_samples_per_tree": 500000,
+    "n_jobs": 1
+  },
+  "xgboost": {
+    "round_checkpoints": [20, 40, 60, 80, 100],
+    "max_depth": 6,
+    "max_bin": 128,
+    "eta": 0.1,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "lambda": 1.0
+  },
+  "mlp": {
+    "hidden_layer_sizes": [64, 32],
+    "max_epochs": 5,
+    "minibatch_size": 2048,
+    "learning_rate_init": 0.001,
+    "alpha": 0.0001
+  },
+  "final_seeds_planned_not_executed": [42, 123, 456, 789, 1024]
+}

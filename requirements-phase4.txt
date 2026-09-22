@@ -1,0 +1,10 @@
+# Dedicated Phase 4 environment; do not overwrite the frozen preparation environment.
+numpy==2.1.3
+pandas==2.2.3
+pyarrow==19.0.0
+scikit-learn==1.7.2
+xgboost==3.0.5
+matplotlib==3.10.0
+psutil==5.9.0
+joblib==1.4.2
+threadpoolctl==3.5.0

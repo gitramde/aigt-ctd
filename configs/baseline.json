@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "raw_dir": "data/raw/Processed Traffic Data for ML Algorithms",
+  "data_dir": "data/baseline_v1",
+  "report_dir": "results/baseline_v1",
+  "target": "binary",
+  "benign_label": "Benign",
+  "seed": 20260920,
+  "batch_size": 50000,
+  "infinity_to_nan": ["Flow Byts/s", "Flow Pkts/s"],
+  "categorical_columns": ["Protocol"],
+  "metadata_only_columns": ["Label", "Timestamp", "Flow ID", "Src IP", "Dst IP", "Src Port"],
+  "imputation": "training_mean",
+  "all_missing_numeric_fill": 0.0,
+  "scaling": "training_standard_scaler",
+  "unknown_category": "all_zero_one_hot",
+  "split": {
+    "target_fractions": [0.8, 0.1, 0.1],
+    "minimum_train_dates": 3,
+    "minimum_validation_dates": 1,
+    "minimum_test_dates": 2,
+    "minimum_benign_per_partition": 100,
+    "minimum_malicious_per_partition": 100
+  },
+  "expected_raw_files": 10,
+  "expected_totals": {
+    "raw_rows": 16233002,
+    "repeated_headers": 59,
+    "exact_nonheader_duplicates": 410707,
+    "year_1970_temporal_exclusions": 14,
+    "temporal_rows": 15822222
+  }
+}
