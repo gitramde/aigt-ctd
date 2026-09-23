@@ -1,0 +1,30 @@
+{
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    1024
+  ],
+  "std_ddof": 1,
+  "partition": "test",
+  "input_sha256": {
+    "results\\final_runs_v1\\aggregate_phase11a\\per_seed_metrics.csv": "be603f05b79ebfe222aaacc05351d6a3de110396f9987537f169f4397b9dc09b",
+    "results\\final_runs_v1\\aggregate_phase11b\\per_seed_metrics.csv": "1fcbb13b24e84adef2c5c0f2ba94b252c9c2d64e4c3133b5ecbe84813cc3ad2e",
+    "results\\final_runs_v1\\aggregate_phase11a\\rf_ae_or_comparison.csv": "f50c88f5bd07bfbc8d8d45eaeaf029e45dc230f9698a055bd5dfe55e59f235bc",
+    "results\\final_runs_v1\\aggregate_phase11a\\paired_per_seed_differences.csv": "cdb73a3de504f519793d5f2fee2e3863dcc2e55b4508a51ecdc8b431d5c60ee0",
+    "results\\final_runs_v1\\aggregate_phase11b\\paired_component_differences.csv": "7d853970ed2ab38c5448b6805ab9c5bf0425ca95979a428f87c260f125244396"
+  },
+  "source_sha256": "4d0b763348ad8f467d23289172a4cd9aebeb96e43ff88bd8cacf80b8111773bb",
+  "checks": {
+    "five_unique_seeds_every_series": true,
+    "finite_values": true,
+    "paired_deltas_recomputed": true,
+    "input_files_unchanged": true
+  },
+  "notes": [
+    "No training, threshold recalibration, prediction or XAI executed.",
+    "Cohorts displayed separately; full dataset has no final Transformer predictions.",
+    "Symmetric SD whiskers are not confidence intervals and may cross the physical metric range."
+  ]
+}
